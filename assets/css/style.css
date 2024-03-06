@@ -110,7 +110,21 @@ main {
 #cover-text h2, #cover-text h3 {
     color: #ffffff;
 }
- 
+
+/* reasons */ 
+
+#reasons {
+    width: 90%;
+}
+
+#reasons h2{
+    font-size: 280%;
+    margin: 20px auto 20px auto;
+}
+
+#reasons p{
+    padding: 0 20px;
+}
 /* Footer styles */
 #social-networks {
     text-align: center;
