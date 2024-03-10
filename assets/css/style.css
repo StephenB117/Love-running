@@ -80,6 +80,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main styles */
 main {
     /* make main content take up any surplus space to push footer down*/
@@ -115,16 +116,46 @@ main {
 
 #reasons {
     width: 90%;
+    margin: 20px auto;
 }
 
 #reasons h2{
     font-size: 280%;
-    margin: 20px auto 20px auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-#reasons p{
+#benefits p{
     padding: 0 20px;
 }
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* makes the image a circle */ 
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer styles */
 #social-networks {
     text-align: center;
