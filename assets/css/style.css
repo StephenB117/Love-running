@@ -187,6 +187,16 @@ main {
     color: #fafafa;
 }
 
+/*gallery page styles */
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer styles */
 #social-networks {
     text-align: center;
